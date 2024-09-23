@@ -18,8 +18,8 @@ print("Hasil Perkalian:", perkalian)
 
 # 4.Perpangkatan
 Perpangkatan1 = int(input("Masukkan bilangan perpangkatan pertama: "))
-Perpangkatan = int(input("Masukkan bilangan perpangkatan kedua: "))
-perpangkatan = Perpangkatan1 ** Perpangkatan
+Perpangkatan2 = int(input("Masukkan bilangan perpangkatan kedua: "))
+perpangkatan = Perpangkatan1 ** Perpangkatan2
 print("Hasil perpangkatan", perpangkatan)
 
 # 5.Integer Division
