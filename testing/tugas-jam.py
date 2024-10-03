@@ -1,3 +1,6 @@
+#Nama : Charles Andriansyah
+#NIM : 065002400024
+
 while True:
     try:
         jam_mulai = int(input("Masukkan jam mulai: "))
