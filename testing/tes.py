@@ -44,57 +44,66 @@
 #     except ValueError:
 #         print("Input tidak valid, silakan masukkan angka yang benar.")
 
-def rata_rata_nilai():
-    # Kamus untuk konversi nilai huruf ke angka
-    total_nilai = 0
-    jumlah_nilai = 0
+# def rata_rata_nilai():
+#     # Kamus untuk konversi nilai huruf ke angka
+#     total_nilai = 0
+#     jumlah_nilai = 0
 
-    while True:
-        huruf = input("Masukkan kategori huruf (atau 'selesai' untuk menghitung rata-rata): ").strip()
+#     while True:
+#         huruf = input("Masukkan kategori huruf (atau 'selesai' untuk menghitung rata-rata): ").strip()
         
-        if huruf == 'selesai':
-            break
-        elif huruf == 'A':
-            total_nilai += 4.00
-            jumlah_nilai += 1
-        elif huruf == 'A-':
-            total_nilai += 3.75
-            jumlah_nilai += 1
-        elif huruf == 'B+':
-            total_nilai += 3.50
-            jumlah_nilai += 1
-        elif huruf == 'B':
-            total_nilai += 3.00
-            jumlah_nilai += 1
-        elif huruf == 'B-':
-            total_nilai += 2.75
-            jumlah_nilai += 1
-        elif huruf == 'C+':
-            total_nilai += 2.50
-            jumlah_nilai += 1
-        elif huruf == 'C':
-            total_nilai += 2.00
-            jumlah_nilai += 1
-        elif huruf == 'C-':
-            total_nilai += 1.75
-            jumlah_nilai += 1
-        elif huruf == 'D':
-            total_nilai += 1.50
-            jumlah_nilai += 1
-        elif huruf == 'E':
-            total_nilai += 1.25
-            jumlah_nilai += 1
-        else:
-            print(f"Kategori '{huruf}' tidak valid. Silakan coba lagi.")
+#         if huruf == 'selesai':
+#             break
+#         elif huruf == 'A':
+#             total_nilai += 4.00
+#             jumlah_nilai += 1
+#         elif huruf == 'A-':
+#             total_nilai += 3.75
+#             jumlah_nilai += 1
+#         elif huruf == 'B+':
+#             total_nilai += 3.50
+#             jumlah_nilai += 1
+#         elif huruf == 'B':
+#             total_nilai += 3.00
+#             jumlah_nilai += 1
+#         elif huruf == 'B-':
+#             total_nilai += 2.75
+#             jumlah_nilai += 1
+#         elif huruf == 'C+':
+#             total_nilai += 2.50
+#             jumlah_nilai += 1
+#         elif huruf == 'C':
+#             total_nilai += 2.00
+#             jumlah_nilai += 1
+#         elif huruf == 'C-':
+#             total_nilai += 1.75
+#             jumlah_nilai += 1
+#         elif huruf == 'D':
+#             total_nilai += 1.50
+#             jumlah_nilai += 1
+#         elif huruf == 'E':
+#             total_nilai += 1.25
+#             jumlah_nilai += 1
+#         else:
+#             print(f"Kategori '{huruf}' tidak valid. Silakan coba lagi.")
 
-    # Menghitung rata-rata
-    if jumlah_nilai == 0:
-        print("Tidak ada nilai valid untuk dihitung.")
-        return
+#     # Menghitung rata-rata
+#     if jumlah_nilai == 0:
+#         print("Tidak ada nilai valid untuk dihitung.")
+#         return
 
-    rata_rata = total_nilai / jumlah_nilai
-    print(f"Rata-rata nilai: {rata_rata:.2f}")
+#     rata_rata = total_nilai / jumlah_nilai
+#     print(f"Rata-rata nilai: {rata_rata:.2f}")
 
-# Contoh penggunaan
-rata_rata_nilai()
+# # Contoh penggunaan
+# rata_rata_nilai()
+
+def f(x) :
+   return  x**3 + 2*x
+def g(x, y, z) :
+   return x*z + y**2
+
+a = f(5) + g(1, 8, 4)
+print(a)
+
 
