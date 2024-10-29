@@ -98,12 +98,23 @@
 # # Contoh penggunaan
 # rata_rata_nilai()
 
-def f(x) :
-   return  x**3 + 2*x
-def g(x, y, z) :
-   return x*z + y**2
+# def f(x) :
+#    return  x**3 + 2*x
+# def g(x, y, z) :
+#    return x*z + y**2
 
-a = f(5) + g(1, 8, 4)
-print(a)
+# a = f(5) + g(1, 8, 4)
+# print(a)
+
+
+def ucapan(nama) : 
+    print(f"halo, {nama}")
+
+nama = input("Masukan Nama : ")
+ucapan(nama)
+
+
+
+
 
 
