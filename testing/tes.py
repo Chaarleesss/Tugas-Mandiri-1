@@ -107,8 +107,8 @@
 # print(a)
 
 
-# def ucapan(nama) : 
-#     print(f"halo, {nama}")
+def ucapan(nama) : 
+    print(f"halo, {nama}")
 
 nama = input("Masukan Nama : ")
 ucapan(nama)
