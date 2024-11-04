@@ -118,17 +118,27 @@
 
 # print(f"hasil perkalian = {kali(2, 2)}")
 
-import math
+# import math
 
-def hitung_sisi_miring(a, b):
-    c = math.sqrt(a**2 + b**2)
-    return c
+# def hitung_sisi_miring(a, b):
+#     c = math.sqrt(a**2 + b**2)
+#     return c
 
-a = int(input("Masukan panjang sisi pertama : "))
-b = int(input("Masukan panjang sisi Kedua : "))
+# a = int(input("Masukan panjang sisi pertama : "))
+# b = int(input("Masukan panjang sisi Kedua : "))
 
 
-print(f"Panjang sisi miring adalah: {hitung_sisi_miring(a, b)}")
+# print(f"Panjang sisi miring adalah: {hitung_sisi_miring(a, b)}")
+
+def faktorial(n) :
+    if n == 1 :
+        return 1
+    else :
+        x = n*faktorial(n-1)
+        return x
+    
+n = int(input("Masukan angka gc : "))
+print(faktorial(n))
 
 
 
