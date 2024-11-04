@@ -107,11 +107,30 @@
 # print(a)
 
 
-def ucapan(nama) : 
-    print(f"halo, {nama}")
+# def ucapan(nama) : 
+#     print(f"halo, {nama}")
 
-nama = input("Masukan Nama : ")
-ucapan(nama)
+# nama = input("Masukan Nama : ")
+# ucapan(nama)
+
+# def kali(a, b) :
+#     return a * b
+
+# print(f"hasil perkalian = {kali(2, 2)}")
+
+import math
+
+def hitung_sisi_miring(a, b):
+    c = math.sqrt(a**2 + b**2)
+    return c
+
+a = int(input("Masukan panjang sisi pertama : "))
+b = int(input("Masukan panjang sisi Kedua : "))
+
+
+print(f"Panjang sisi miring adalah: {hitung_sisi_miring(a, b)}")
+
+
 
 
 
