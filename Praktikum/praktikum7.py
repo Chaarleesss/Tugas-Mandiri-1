@@ -6,4 +6,5 @@
 
 int = int(input("Jumlah = "))
 for i in range(int, 0, -1) :
-    print(str(i) * i)
+    
+    print(str(i))
