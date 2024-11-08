@@ -137,8 +137,16 @@ def faktorial(n) :
         x = n*faktorial(n-1)
         return x
     
+def fibonaci(n) :
+    if n==1 or n==2 :
+        return 1
+    else :
+        return fibonaci(n-1)+fibonaci(n-2)
+     
 n = int(input("Masukan angka gc : "))
 print(faktorial(n))
+print(fibonaci(n))
+
 
 
 
