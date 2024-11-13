@@ -130,12 +130,12 @@
 
 # print(f"Panjang sisi miring adalah: {hitung_sisi_miring(a, b)}")
 
-def faktorial(n) :
-    if n == 1 :
-        return 1
-    else :
-        x = n*faktorial(n-1)
-        return x
+# def faktorial(n) :
+#     if n == 1 :
+#         return 1
+#     else :
+#         x = n*faktorial(n-1)
+#         return x
     
 def fibonaci(n) :
     if n==1 or n==2 :
@@ -144,7 +144,7 @@ def fibonaci(n) :
         return fibonaci(n-1)+fibonaci(n-2)
      
 n = int(input("Masukan angka gc : "))
-print(faktorial(n))
+# print(faktorial(n))
 print(fibonaci(n))
 
 
