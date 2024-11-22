@@ -1,0 +1,5 @@
+Nama: Charles
+Umur: 18
+Alamat: Jakut
+Email: charles@gmail.com
+Dosen Wali: Pak Anung
