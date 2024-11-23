@@ -1,17 +1,16 @@
-
-def perpangkatan(base, power):
-    if power == 0:
+def perpangkatan(base, pangkat):
+    if pangkat == 0:
         return 1
-    elif power > 0:
-        return base * perpangkatan(base, power - 1)
+    elif pangkat > 0:
+        return base * perpangkatan(base, pangkat - 1)
     else:
-        return 1 / perpangkatan(base, -power)
+        return 1 / perpangkatan(base, -pangkat)
 
 def main():
     base = float(input("Masukkan angka dasar : "))  
-    power = int(input("Masukkan pangkat : ")) 
+    pangkat = int(input("Masukkan pangkat : ")) 
     
-    hasil = perpangkatan(base, power)
+    hasil = perpangkatan(base, pangkat)
     
     print(f"Hasilnya adalah: {hasil}")
 
